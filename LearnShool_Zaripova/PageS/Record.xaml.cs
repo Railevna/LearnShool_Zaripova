@@ -16,23 +16,13 @@ using System.Windows.Shapes;
 namespace LearnShool_Zaripova.PageS
 {
     /// <summary>
-    /// Логика взаимодействия для ServisPage.xaml
+    /// Логика взаимодействия для Record.xaml
     /// </summary>
-    public partial class ServisPage : Page
+    public partial class Record : Page
     {
-        public ServisPage()
+        public Record()
         {
             InitializeComponent();
-        }
-
-        private void Button1_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void Button2_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

@@ -1,0 +1,45 @@
+﻿<Page x:Class="LearnShool_Zaripova.PageS.Record"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LearnShool_Zaripova.PageS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Record">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="ServicesTbl"
+           Grid.ColumnSpan="2"
+           Grid.Row="1"
+           Text="Услуги"/>
+        <ComboBox Grid.Column="1" Margin="0,53,0,2" Grid.RowSpan="2">
+            <ComboBoxItem Content="кл1"/>
+            <ComboBoxItem Content="кл2"/>
+            <ComboBoxItem Content="кл3"/>
+        </ComboBox>
+        
+        <DatePicker x:Name="data" Grid.Column="5" Margin="0,10,0,46" Grid.RowSpan="2" Grid.Row="5">
+        </DatePicker>
+    </Grid>
+</Page>
